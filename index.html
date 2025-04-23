@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced JS Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="theme-toggle">
+            <button id="toggle-theme">🌙 Toggle Theme</button>
+        </div>
+
+        <div class="display" id="display">0</div>
+        <div class="keys">
+            <button data-action="memory-clear">MC</button>
+            <button data-action="memory-recall">MR</button>
+            <button data-action="memory-add">M+</button>
+            <button data-action="memory-subtract">M-</button>
+
+            <button data-action="clear">C</button>
+            <button data-action="sign">±</button>
+            <button data-action="percent">%</button>
+            <button data-action="divide">÷</button>
+
+            <button>7</button><button>8</button><button>9</button><button data-action="multiply">×</button>
+            <button>4</button><button>5</button><button>6</button><button data-action="subtract">−</button>
+            <button>1</button><button>2</button><button>3</button><button data-action="add">+</button>
+            <button>0</button><button data-action="decimal">.</button>
+            <button data-action="sqrt">√</button>
+            <button data-action="power">^</button>
+            <button data-action="equals" class="equals">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+    <script src="ui.js"></script>
+</body>
+
+</html>
